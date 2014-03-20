@@ -14,6 +14,10 @@ body{
 	
 }
 
+#main_content {
+    padding-top: 60px;
+}
+
 
 h5 {
     font-weight: 300;
