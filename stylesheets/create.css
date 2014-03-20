@@ -8,31 +8,11 @@ body{
     font-size: 14px;
     line-height: 1.42857;
 }
-} 
+
 
 .container {
-	background-image: url("../images/studio-splashbar.png");
-	background-size: 100%;
-    background-color: #f78e0f;
-	background-repeat:repeat-xx
-    /*border-color: #E7E7E7;*/
 	
 }
-
-.navbar-brand {
-	background-image: url("../images/header-logo.png");
-    height: 40px;
-    margin-top: 4px;
-	margin-left: 10px;
-    width: 128px;
-	background-repeat: no-repeat;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
-
-
 
 
 h5 {
@@ -221,6 +201,11 @@ dt {
 }
 dt, dd {
     line-height: 1.42857;
+}
+
+.dl-horizontal dd:before, .dl-horizontal dd:after {
+    content: " ";
+    display: table;
 }
 
 
