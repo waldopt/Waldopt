@@ -154,12 +154,48 @@ dt, dd {
 	 border: none;
     box-shadow: none;
     margin: 0;
+	padding-bottom: 26px;
 }
 
 .exmapleblock {
 	clear:both;
 	padding-bottom: 20px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.1px;
+}
+
+#header_wrap .inner {
+    padding: 20px 10px 10px;
+}
+
+.studioRightImg {
+	border: 0;
+    box-shadow: none;
+    margin: 0;
+	padding: 0;
+}
+
+.studioContainer {
+   height: auto;
+   overflow: hidden;
+}
+
+.studioRight {
+    float: right;
+    font-size: 12px;
+    line-height: 0.9em;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 100px;
+}
+
+.studioLeft {
+    float: none; 
+    width: auto;
+    overflow: hidden;
+}​​
 
 
 
